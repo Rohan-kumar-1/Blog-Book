@@ -1,0 +1,123 @@
+/* Add the CSS code you provided */
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+
+
+.language-block {
+    display: block;
+    width: 25vw;
+    height: 150px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(124, 126, 253, 0.253);
+    transition: transform 0.2s ease-in-out;
+}
+
+.language-block:hover {
+    background-color: #eee;
+    transform: scale(1.1);
+}
+
+.language-block:active {
+    transform: scale(0.9);
+}
+
+body {
+    background-color: rgb(163, 253, 253);
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech-bubble {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f8e0e0;
+    text-align: center;
+    position: relative;
+}
+
+.speech-bubble h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.speech-bubble p {
+    margin-bottom: 20px;
+}
+
+.speech-bubble button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+}

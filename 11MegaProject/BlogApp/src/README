@@ -1,0 +1,12 @@
+in this blog we need React, react-dom which is directly availble in vite but some of them are not available so we need to install that 
+
+1. npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form
+
+now we need envirment variable as we write things in react which can be seen on browser but we can,t show sensetive data on it so we need environment varibale which store things on that particular environment and does not pass it
+===>>>>  it should be in project root
+===>>>>  .env should be file name
+we do not put this environment in github we add it in git ignore
+
+but mmujhe v to ye variable need hoga to uske liye src me .env.sample file we need to create
+
+database ke andar collection banate hai or usko sab chij ka permision dete hai
